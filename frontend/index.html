@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ai-therapist v0.1</title>
+    <script>
+      (function () {
+        var theme = localStorage.getItem("theme");
+        if (
+          theme === "dark" ||
+          (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main id="therapy-room" class="therapy-room">
+      <div class="chat-shell">
+        <div id="messages" class="messages"></div>
+      </div>
+      <form id="chat-form" class="composer">
+        <div class="composer-inner">
+          <textarea id="message-input" rows="2"></textarea>
+          <button id="send-button" class="send-button" type="submit">Send</button>
+        </div>
+      </form>
+    </main>
+
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+      <span class="theme-toggle-icon theme-icon-light" aria-hidden="true">☀</span>
+      <span class="theme-toggle-icon theme-icon-dark" aria-hidden="true">☾</span>
+    </button>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
