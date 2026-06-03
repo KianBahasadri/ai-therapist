@@ -1,0 +1,7 @@
+# ── Private patient chart — NEVER commit ────────────────────────────────
+# Everything the therapist writes about the patient lives here. This is
+# personal clinical data and must stay on the local machine only.
+/client/
+
+# Personal Claude Code settings (machine-specific overrides)
+.claude/settings.local.json
