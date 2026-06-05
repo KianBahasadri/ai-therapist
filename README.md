@@ -15,6 +15,10 @@ Behind the scenes:
   guardrails. This is the *method*, and it's committed so it can be shared.
 - **A session-start hook** (`.claude/hooks/load-chart.sh`) silently loads your
   chart so the therapist already remembers you and follows up on last time.
+- **A per-message session clock** (`.claude/hooks/session-clock.sh`) quietly
+  stamps each of your messages with how long the session has run and how long
+  you took to reply, so the therapist can pace the session instead of running on
+  forever. You never see it.
 - **The therapist writes notes after each session** — like jotting in a
   notebook — so progress carries forward across sessions.
 
