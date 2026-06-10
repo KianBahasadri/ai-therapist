@@ -1,6 +1,17 @@
 # ai-therapist
 
-this is a harness for claude code to mimic a licensed therapist as closely as possible.
+## this idea failed
+
+As it turns out, this idea failed poorly. I recommend anyone else looking for an
+AI therapist to just talk to Claude and let it write things down in its
+memories. That's all. As of now, that's really the best you're going to get,
+in my opinion.
+
+The rest of this README describes the attempt, kept for reference.
+
+---
+
+this was a harness for claude code to mimic a licensed therapist as closely as possible.
 I would hope its obvious that this cannt be expected to provide the same care as a human expert.
 However, I can personally attest that talking to claude is better than talking to yourself.
 
