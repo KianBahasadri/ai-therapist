@@ -1,11 +1,8 @@
-# ai-therapist
+# this idea failed
 
-## this idea failed
-
-As it turns out, this idea failed poorly. I recommend anyone else looking for an
-AI therapist to just talk to Claude and let it write things down in its
-memories. That's all. As of now, that's really the best you're going to get,
-in my opinion.
+As it turns out, this idea failed. I recommend anyone else looking for an
+AI therapist to just talk to Claude on the most powerful setting possible and let it write things down in its
+memories. That's all. As of now, that's really the best you're going to get.
 
 The rest of this README describes the attempt, kept for reference.
 
